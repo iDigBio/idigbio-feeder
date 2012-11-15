@@ -1,0 +1,4 @@
+"Title", "ID", "Description", "Type", "File"
+"Test Set", "http://localhost/datasets/test.csv", "A Test Dataset", "CSV", "datasets/test.csv"
+"Test Set ZIP", "http://localhost/datasets/test.csv.zip", "A Test Dataset", "CSV-ZIP", "datasets/test.csv.zip"
+"Test Set FAKE DWCA", "http://localhost/datasets/dwca-test.zip", "A Test Dataset", "DWCA", "datasets/dwca-test.zip"
