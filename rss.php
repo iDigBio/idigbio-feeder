@@ -38,6 +38,7 @@
         $rssfeed .= '<title>' . $dataset["Title"] . '</title>';
         $rssfeed .= '<id>' . $dataset["ID"] . '</id>';
         $rssfeed .= '<type>' . $dataset["Type"] . '</type>';
+        $rssfeed .= '<recordtype>' . $dataset["Record Type"] . '</recordtype>';
         $rssfeed .= '<description>' . $dataset["Description"] . '</description>';
         $rssfeed .= '<link>' . $dataset["File"] . '</link>';
         $rssfeed .= '<pubDate>' . date("D, d M Y H:i:s O", $dsstat["mtime"]) . '</pubDate>';
