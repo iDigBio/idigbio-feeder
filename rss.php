@@ -21,9 +21,9 @@
         $datasets[] = $ds_arr;
     }
 
-    header("Content-Type: application/rss+xml; charset=ISO-8859-1");
+    header("Content-Type: text/xml; charset=UTF-8");
 
-    $rssfeed = '<?xml version="1.0" encoding="ISO-8859-1"?>';
+    $rssfeed = '<?xml version="1.0" encoding="UTF-8"?>';
     $rssfeed .= '<rss version="2.0">';
     $rssfeed .= '<channel>';
     $rssfeed .= '<title>' . $config["Title"] . '</title>';
