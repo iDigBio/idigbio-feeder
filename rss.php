@@ -24,7 +24,7 @@
     header("Content-Type: text/xml; charset=UTF-8");
 
     $rssfeed = '<?xml version="1.0" encoding="UTF-8"?>';
-    $rssfeed .= '<rss version="2.0">';
+    $rssfeed .= '<rss  xmlns:ipt="http://ipt.gbif.org/" version="2.0">';
     $rssfeed .= '<channel>';
     $rssfeed .= '<title>' . $config["Title"] . '</title>';
     $rssfeed .= '<link>' . $config["Link"] . '</link>';
@@ -41,6 +41,7 @@
         $rssfeed .= '<recordtype>' . $dataset["Record Type"] . '</recordtype>';
         $rssfeed .= '<description>' . $dataset["Description"] . '</description>';
         $rssfeed .= '<link>' . $dataset["File"] . '</link>';
+        $rssfeed .= '<ipt:eml>' . $dataset["EMLFile"] . '</ipt:eml>';
         $rssfeed .= '<pubDate>' . date("D, d M Y H:i:s O", $dsstat["mtime"]) . '</pubDate>';
         $rssfeed .= '</item>';
     }
