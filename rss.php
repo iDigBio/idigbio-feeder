@@ -21,7 +21,7 @@
         $datasets[] = $ds_arr;
     }
 
-    $base = join(array_slice(split($config["Link"],"/"), 0, -1),"/")
+    $base = join("/",array_slice(explode("/",$config["Link"]), 0, -1))
 
 
     header("Content-Type: text/xml; charset=UTF-8");
