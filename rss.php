@@ -21,6 +21,9 @@
         $datasets[] = $ds_arr;
     }
 
+    $base = join(array_slice(split($config["Link"],"/"), 0, -1),"/")
+
+
     header("Content-Type: text/xml; charset=UTF-8");
 
     $rssfeed = '<?xml version="1.0" encoding="UTF-8"?>';
@@ -40,8 +43,8 @@
         $rssfeed .= '<type>' . $dataset["Type"] . '</type>';
         $rssfeed .= '<recordtype>' . $dataset["Record Type"] . '</recordtype>';
         $rssfeed .= '<description>' . $dataset["Description"] . '</description>';
-        $rssfeed .= '<link>' . $dataset["File"] . '</link>';
-        $rssfeed .= '<ipt:eml>' . $dataset["EMLFile"] . '</ipt:eml>';
+        $rssfeed .= '<link>' . $base . "/". $dataset["File"] . '</link>';
+        $rssfeed .= '<ipt:eml>' . $base . "/". $dataset["EMLFile"] . '</ipt:eml>';
         $rssfeed .= '<pubDate>' . date("D, d M Y H:i:s O", $dsstat["mtime"]) . '</pubDate>';
         $rssfeed .= '</item>';
     }
