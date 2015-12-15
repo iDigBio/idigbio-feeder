@@ -44,7 +44,7 @@
         $rssfeed .= '<recordtype>' . $dataset["Record Type"] . '</recordtype>';
         $rssfeed .= '<description>' . $dataset["Description"] . '</description>';
         $rssfeed .= '<link>' . $base . "/". $dataset["File"] . '</link>';
-        $rssfeed .= '<ipt:eml>' . $base . "/". $dataset["EMLFile"] . '</ipt:eml>';
+        $rssfeed .= '<emllink>' . $base . "/". $dataset["EMLFile"] . '</ipt:eml>';
         $rssfeed .= '<pubDate>' . date("D, d M Y H:i:s O", $dsstat["mtime"]) . '</pubDate>';
         $rssfeed .= '</item>';
     }
