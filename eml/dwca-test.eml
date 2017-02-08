@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd" packageId="http://localhost:8080/ipt-2.1.1/resource.do?id=test/v2" system="http://gbif.org" scope="system" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">dwca-test</title>
+    <creator>
+      <individualName>
+        <givenName>Dan</givenName>
+        <surName>Stoner</surName>
+      </individualName>
+      <organizationName>iDigBio / University of Florida</organizationName>
+      <positionName>Data Integration Expert</positionName>
+      <address>
+        <deliveryPoint></deliveryPoint>
+        <city>Gainesville</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode></postalCode>
+        <country>US</country>
+      </address>
+      <phone></phone>
+      <electronicMailAddress>dstoner@acis.ufl.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Dan</givenName>
+        <surName>Stoner</surName>
+      </individualName>
+      <organizationName>iDigBio / University of Florida</organizationName>
+      <positionName>Data Integration Expert</positionName>
+      <address>
+        <deliveryPoint></deliveryPoint>
+        <city>Gainesville</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode></postalCode>
+        <country>US</country>
+      </address>
+      <phone></phone>
+      <electronicMailAddress>dstoner@acis.ufl.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName></givenName>
+        <surName></surName>
+      </individualName>
+      <organizationName></organizationName>
+      <positionName></positionName>
+      <address>
+        <deliveryPoint></deliveryPoint>
+        <city></city>
+        <administrativeArea></administrativeArea>
+        <postalCode></postalCode>
+        <country></country>
+      </address>
+      <phone></phone>
+      <electronicMailAddress></electronicMailAddress>
+      <role></role>
+    </associatedParty>
+    <pubDate>
+	2017-02-08
+</pubDate>
+    <language>eng</language>
+    <abstract>
+      <para>test dataset for quick and dirty rss feeder</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Occurrence</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+    </keywordSet>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2017-02-08T01:06:00.000-05:00</dateStamp>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
