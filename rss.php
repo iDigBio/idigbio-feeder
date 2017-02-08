@@ -23,7 +23,6 @@
 
     $base = join("/",array_slice(explode("/",$config["Link"]), 0, -1));
 
-
     header("Content-Type: text/xml; charset=UTF-8");
 
     $rssfeed = '<?xml version="1.0" encoding="UTF-8"?>';
@@ -43,7 +42,13 @@
         $rssfeed .= '<type>' . $dataset["Type"] . '</type>';
         $rssfeed .= '<recordtype>' . $dataset["Record Type"] . '</recordtype>';
         $rssfeed .= '<description>' . $dataset["Description"] . '</description>';
-        $rssfeed .= '<link>' . $base . "/". $dataset["File"] . '</link>';
+        // Allow *this* feed to link to dataset files outside *this* webserver when link is specified as an http(s) location
+	if (substr($dataset["File"], 0, 4 ) === "http") {
+           trigger_error($base, E_USER_NOTICE);
+	   $rssfeed .= '<link>' . $dataset["File"] . '</link>';
+	   } else {
+	     $rssfeed .= '<link>' . $base . "/". $dataset["File"] . '</link>';
+	}
         $rssfeed .= '<emllink>' . $base . "/". $dataset["EMLFile"] . '</emllink>';
         $rssfeed .= '<pubDate>' . date("D, d M Y H:i:s O", $dsstat["mtime"]) . '</pubDate>';
         $rssfeed .= '</item>';
