@@ -42,14 +42,20 @@
         $rssfeed .= '<type>' . $dataset["Type"] . '</type>';
         $rssfeed .= '<recordtype>' . $dataset["Record Type"] . '</recordtype>';
         $rssfeed .= '<description>' . $dataset["Description"] . '</description>';
-        // Allow *this* feed to link to dataset files outside *this* webserver when link is specified as an http(s) location
+
+        // Allow *this* feed to link to dataset and metadata (.eml) files outside *this* webserver 
+	// when the locations are specified as http(s) location (e.g. starts with "http")
 	if (substr($dataset["File"], 0, 4 ) === "http") {
-           trigger_error($base, E_USER_NOTICE);
 	   $rssfeed .= '<link>' . $dataset["File"] . '</link>';
-	   } else {
-	     $rssfeed .= '<link>' . $base . "/". $dataset["File"] . '</link>';
+	} else {
+	  $rssfeed .= '<link>' . $base . "/". $dataset["File"] . '</link>';
 	}
-        $rssfeed .= '<emllink>' . $base . "/". $dataset["EMLFile"] . '</emllink>';
+	if (substr($dataset["EMLFile"], 0, 4 ) === "http") {
+          $rssfeed .= '<emllink>' . $dataset["EMLFile"] . '</emllink>';
+	} else {
+	  $rssfeed .= '<emllink>' . $base . "/". $dataset["EMLFile"] . '</emllink>';
+	}
+
         $rssfeed .= '<pubDate>' . date("D, d M Y H:i:s O", $dsstat["mtime"]) . '</pubDate>';
         $rssfeed .= '</item>';
     }
