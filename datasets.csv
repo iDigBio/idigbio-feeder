@@ -4,4 +4,5 @@
 "Test zipped dataset", "http://localhost/datasets/test.csv.zip","A Test csv.zip Dataset", "CSV-ZIP","occurrence","datasets/test.csv.zip",""
 "Test archive", "http://localhost/datasets/dwca-test.zip","A Test DwC-A Dataset","DWCA","DWCA","datasets/dwca-test.zip","eml/dwca-test.eml"
 "Test archive relative path", "THIS_COULD_BE_A_GUID_INSTEAD_datasets/dwca-test.zip","A Test DwC-A Dataset","DWCA","DWCA","datasets/dwca-test.zip","eml/dwca-test.eml"
-"Test archive at remote http location", "aa57903f-620a-416d-a669-75824d6b4b7b","Test DwC-A on remote webserver","DWCA","DWCA","http://example.com/datasets/dwca-test.zip","http://example.com/eml/dwca-test.eml"
+"Test archive at remote http location", "aa57903f-620a-416d-a669-75824d6b4b7b","Test DwC-A on remote webserver with a pubdate in pubdates.csv","DWCA","DWCA","http://example.com/datasets/dwca-test.zip","http://example.com/eml/dwca-test.eml"
+"Test archive2 at remote http location", "c588dad2-754c-452a-8ba3-7ca5e7f2fcb2","Test DwC-A on remote webserver with no entry in pubdates.csv","DWCA","DWCA","http://example.com/datasets/dwca-test2.zip","http://example.com/eml/dwca-test2.eml"
