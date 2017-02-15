@@ -31,7 +31,7 @@ $ head myrssfeed.xml
 
 feed.csv contains configuration for the feed itself.
 
-Sample feed.csv:
+### Sample feed.csv:
 
 ```
 Title, Link, Description
@@ -41,10 +41,6 @@ Title, Link, Description
 ## datasets.csv
 
 datasets.csv contains configuration for the list of datasets that will be mentioned in the feed.
-
-The pubDate field that appears in the rss feed is either determined dynamically from the local filesystem last modified date (via a "stat" operation), or by reading date values from pubdates.csv.
-
-If the "File" appears to be remote (starts with 'http') but the date is not specified in pubdates.csv, rss.php will issue a warning and will use the "zero date" as the pubDate.
 
 ### Important Fields
 
@@ -69,7 +65,7 @@ A local relative path or http URL to the dataset file.
 A local relative path or http URL to the dataset metadata file.
 
 
-Sample datasets.csv:
+### Sample datasets.csv:
 
 ```
 "Title","ID","Description","Type","Record Type","File","EMLFile"
@@ -86,6 +82,8 @@ Sample datasets.csv:
 
 This is an optional file that is helpful when using datasets that are stored remotely (http) rather than on *this* webserver.
 
+The pubDate field that appears in the finished rss feed is either determined dynamically from the local filesystem last modified date (via a "stat" operation), or by reading date values from pubdates.csv. If the "File" appears to be remote (starts with 'http') but the date is not specified in pubdates.csv, rss.php will issue a warning and will use the "zero date" as the pubDate.
+
 The "ID" column is used to link back to the particular dataset in datasets.csv.
 
 The "pubDate" column contains a timestamp in HTTP-date format and will be used as-is in the finished RSS feed.  At this time there is no relationship between the Last-Modified returned by the remote webserver and the value entered in pubDate column, unless a human keeps them in sync.
@@ -96,7 +94,7 @@ $ curl -s -I http://feeder.idigbio.org/datasets/e4b33221-1e2c-405c-ac02-a39d93f9
 Last-Modified: Wed, 08 Feb 2017 15:35:18 GMT
 ```
 
-Sample pubdates.csv:
+### Sample pubdates.csv:
 
 ```
 "ID","pubDate"
