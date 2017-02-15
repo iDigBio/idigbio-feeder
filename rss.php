@@ -23,6 +23,15 @@ while($rv = fgetcsv($dshandle)){
 
 $base = join("/",array_slice(explode("/",$config["Link"]), 0, -1));
 
+// read pubDates from a file that is maintained separately
+$pubdates = array();
+$pubdateshandle = fopen("pubdates.csv","r");
+while (($line = fgetcsv($pubdateshandle, $enclosure = '"')) !== FALSE ) 
+  { 
+    $pubdates[$line[0]] = $line[1];
+  }
+fclose($pubdateshandle);
+
 header("Content-Type: text/xml; charset=UTF-8");
 
 $rssfeed = '<?xml version="1.0" encoding="UTF-8"?>';
@@ -35,7 +44,6 @@ $rssfeed .= '<language>en-us</language>';
  
 foreach($datasets as $dataset)
   {
-    $dsstat = stat($dataset["File"]);
     $rssfeed .= '<item>';
     $rssfeed .= '<title>' . $dataset["Title"] . '</title>';
     $rssfeed .= '<id>' . $dataset["ID"] . '</id>';
@@ -56,12 +64,22 @@ foreach($datasets as $dataset)
       $rssfeed .= '<emllink>' . $base . "/". $dataset["EMLFile"] . '</emllink>';
     }
 
-    $rssfeed .= '<pubDate>' . date("D, d M Y H:i:s O", $dsstat["mtime"]) . '</pubDate>';
+    // For http file links, we check to see if the external pubdates.csv has a timestamp value.
+    // For local files and http file links that are not in pubdates.csv, use "stat" to get file modified datetime.
+    // For http file links that are not in the .csv, this will lead to a PHP warning (and the "zero" timestamp appearing in the feed).
+    if (array_key_exists($dataset["ID"], $pubdates))
+      {
+	$pubdate = $pubdates[$dataset["ID"]];
+      } else 
+      {
+	$dsstat = stat($dataset["File"]);
+	$pubdate = date("D, d M Y H:i:s O", $dsstat["mtime"]);
+      }
+    $rssfeed .= '<pubDate>' . $pubdate  . '</pubDate>';
     $rssfeed .= '</item>';
   }
- 
+
 $rssfeed .= '</channel>';
 $rssfeed .= '</rss>';
- 
 echo $rssfeed;
 ?>
