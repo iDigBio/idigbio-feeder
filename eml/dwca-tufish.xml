@@ -1,0 +1,123 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+    xmlns:md="eml://ecoinformatics.org/methods-2.1.1"
+    xmlns:proj="eml://ecoinformatics.org/project-2.1.1"
+    xmlns:d="eml://ecoinformatics.org/dataset-2.1.1"
+    xmlns:res="eml://ecoinformatics.org/resource-2.1.1"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd"
+    packageId="64082d56-d897-4471-90e1-66877d586033" system="http://tubri.org" scope="system" xml:lang="eng">    
+      <dataset>
+      <title xml:lang="eng">Tulane University Biodiversity Research Institute, Royal D. Suttkus Fish Collections</title>
+      <creator>
+    <individualName>
+      <givenName>Nelson</givenName>
+      <surName>Rios</surName>
+    </individualName>
+    <organizationName>Tulane University Biodiversity Research Institute</organizationName>
+    <positionName>Biodiversity Informatics Manager</positionName>
+    <address>
+      <deliveryPoint>3705 Main St., BldgA-3</deliveryPoint>
+      <city>Belle Chasse</city>
+      <administrativeArea>LA</administrativeArea>
+      <postalCode>70037</postalCode>
+      <country>US</country>
+    </address>
+    <phone>015043941711</phone>
+    <electronicMailAddress>nrios@tulane.edu</electronicMailAddress>
+    <onlineUrl>http://people.tubi.org/nelson</onlineUrl>
+      </creator>
+      <metadataProvider>
+        <individualName>
+          <givenName>Nelson</givenName>
+          <surName>Rios</surName>
+        </individualName>
+        <organizationName>Tulane University Biodiversity Research Institute</organizationName>
+        <positionName>Biodiversity Informatics Manager</positionName>
+        <address>
+          <deliveryPoint>3705 Main St., BldgA-3</deliveryPoint>
+          <city>Belle Chasse</city>
+          <administrativeArea>LA</administrativeArea>
+          <postalCode>70037</postalCode>
+          <country>US</country>
+        </address>
+        <phone>015043941711</phone>
+        <electronicMailAddress>nrios@tulane.edu</electronicMailAddress>
+        <onlineUrl>http://people.tubi.org/nelson</onlineUrl>
+      </metadataProvider>
+	    <pubDate>
+		2014-08-19
+	  </pubDate>
+      <language>eng</language>
+      <abstract>
+        <para>	
+		The research collection of fishes at TUBRI is the largest collection of post larval fishes in the world, with over 7 million specimens in over 200,000 lots. Recently renamed in honor of Royal D. Suttkus, the collection also features a type room housing 33 holotypes and 38,835 paratypes representing 125 species, a separately curated osteological collection with 1352 specimens (271 species in 55 families) of which 638 (150 species, 20 families) are cleared and stained preparations, 2010 radiographs representing 21,988 specimens from 284 species and 8 hybrids in 36 families, 2428 scale and otolith samples representing 26 species from 12 families, and 77 sets of branchiostegals of two species of Lepisosteus. 
+		</para>
+      </abstract>
+      <intellectualRights>
+        <para>	
+By accessing or using these data, you agree to the following conditions:
+
+1. The Tulane University Biodiversity Research Institute has agreed to share its data freely and openly for nonprofit, educational, and personal use by students, scholars and the public only.  Any commercial use or publication of the data in printed or electronic media is strictly prohibited without the express written permission of Tulane University Biodiversity Research Institute.  
+
+2. Subsets of the information, records, or images in the database may be used, downloaded, reproduced, publicly displayed, distributed, or reprinted strictly for educational, scientific, scholarly, and other non-profit uses provided that Tulane University Biodiversity Research Institute is appropriately cited as the source of the information.
+
+3. Data records from The Tulane University Museum of Natural History database(s) downloaded through third-party data sources as a subset of a networked or cached data search must be clearly identified by the attribution TUMNH (lsid:biocol.org:col:35079). 
+
+4. Use of the data contained in this database is entirely at the user’s own risk. Tulane University Biodiversity Research Institute makes no guarantees, either express or implied, about the completeness, accuracy, or currency of the information in its databases or the suitability of the data for any particular purpose.  Where use of these data is critical to scientific investigation, scholarly publication,  or policy decisions, the user is responsible for verifying identities and provenance against specimens and other primary data sources.  Users who detect or suspect inaccuracies in any of the data are encouraged to contact the appropriate database curator.  
+ 
+5. Although every reasonable effort has been made to provide accurate information, any data extracted from this database or obtained through a third-party provider, are provided “as is” for informational purposes only.  The Tulane University Biodiversity Research Institute is not responsible for any negative consequences of using information contained in its database, and the risk of negative consequences rest entirely with the user.
+
+6. Information in the database must not be regarded as definitive or published. Distributional, ecological, taxonomic, and other such data should be verified by specimen inspection by the user in consultation with The Tulane University Biodiversity Research Institute curatorial staff.
+
+7. By accessing the information in the databases, users agree that The Tulane University Biodiversity Research Institute shall not be liable to the user or any third party for any suit, loss, injury or claim caused by or related to use, compilation, reliance on, or delivery of the data.  Users of the data agree that The Tulane University Biodiversity Research Institute is harmless from all such claims. In no event will The Tulane University Biodiversity Research Institute or the contributors of information to the databases be liable to the user or any third party for any consequential, special, indirect, punitive or damages of any kind.
+
+8. Data obtained from this database by any means shall not be used to cause detriment to individuals or populations of species in the wild without proper permissions and authority.   If Internet access is restricted to any sensitive data contained in the database (e.g., locality data for threatened or endangered species), access to these data may be requested in writing from a curator in the appropriate department.
+
+9. Any opinions, findings, conclusions or recommendations interpreted by users of the data do not necessarily reflect the views of The Tulane University Biodiversity Research Institute.
+	  </para>
+	  </intellectualRights>
+      <distribution scope="document">
+        <online>
+          <url function="information">http://www.tubri.org/fishes/</url>
+        </online>
+      </distribution>
+      <coverage>        
+        <geographicCoverage>
+          <geographicDescription>Global</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-180</westBoundingCoordinate>
+            <eastBoundingCoordinate>180</eastBoundingCoordinate>
+            <northBoundingCoordinate>90</northBoundingCoordinate>
+            <southBoundingCoordinate>-90</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <purpose>
+        <para>
+          The Tulane University Biodiversity Research Institute has agreed to share its data freely and openly for nonprofit, educational, and personal use by students, scholars and the public only.  Any commercial use or publication of the data in printed or electronic media is strictly prohibited without the express written permission of Tulane University Biodiversity Research Institute.
+        </para>
+      </purpose>
+      <contact>
+    <individualName>
+      <givenName>Henry</givenName>
+      <surName>Bart</surName>
+    </individualName>
+    <organizationName>Tulane University Biodiversity Research Institute</organizationName>
+    <positionName>Director</positionName>
+    <address>
+      <deliveryPoint>3705 Main St., BldgA-3</deliveryPoint>
+      <city>Belle Chasse</city>
+      <administrativeArea>LA</administrativeArea>
+      <postalCode>70037</postalCode>
+      <country>US</country>
+    </address>
+    <phone>015043941711</phone>
+    <electronicMailAddress>hbartjr@tulane.edu</electronicMailAddress>
+    <onlineUrl>http://people.tubi.org/hank</onlineUrl>
+      </contact>
+    </dataset>
+  
+</eml:eml>
+
+

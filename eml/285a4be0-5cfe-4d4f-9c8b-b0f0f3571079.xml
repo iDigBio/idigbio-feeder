@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Image Appliance Recordset for NYBG TTD</title>
+    <creator>
+      <individualName>
+        <givenName>Melissa</givenName>
+        <surName>Tulig</surName>
+      </individualName>
+      <positionName>Information Manager</positionName>
+      <electronicMailAddress>mtulig@nybg.org</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Kim</givenName>
+        <surName>Watson</surName>
+      </individualName>
+      <positionName>Information Manager</positionName>
+      <electronicMailAddress>kwatson@nybg.org</electronicMailAddress>
+    </metadataProvider>
+    <language>eng</language>
+    <abstract>
+      <para>The New York Botanical Garden lichen herbarium is among the largest and most active such collections in the world. The lichen herbarium contains approximately 230,000 accessioned specimens spanning all taxonomic groups and geographic regions, though with an emphasis on the Americas. Extensive additional holdings, including recent donations, staff collections, and exchange are being integrated and accessioned such that the herbarium will be the largest in the western hemisphere in the coming years. This herbarium is the primary resource documenting the lichens of eastern North America and is the primary repository for several large scale biodiversity inventories funded by the US National Science Foundation.</para>
+    </abstract>
+  </dataset>
+</eml:eml>

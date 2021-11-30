@@ -1,0 +1,3 @@
+"Naturalis Biodiversity Center (NL) - Brachiopoda","doi:10.15468/v6p9ba","","ZIP","occurrence","http://api.biodiversitydata.nl/v0/specimen/search/dwca/?collection=brachiopoda","https://raw.githubusercontent.com/naturalis/nba-eml/master/brachiopoda_eml.xml"
+"Naturalis Biodiversity Center (NL) - Cnidaria","doi:10.15468/v6p9ba","","ZIP","occurrence","http://api.biodiversitydata.nl/v0/specimen/search/dwca/?collection=cnidaria","https://raw.githubusercontent.com/naturalis/nba-eml/master/cnidaria_eml.xml"
+"Naturalis Biodiversity Center (NL) - Lepidoptera","doi:10.15468/n4q0sa","","ZIP","occurrence","http://api.biodiversitydata.nl/v0/specimen/search/dwca/?collection=lepidoptera","https://raw.githubusercontent.com/naturalis/nba-eml/master/lepidoptera_eml.xml"

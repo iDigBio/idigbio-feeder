@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Illinois Natural History Survey Mollusk Collection</title>
+    <creator>
+      <individualName>
+        <givenName>Kevin S.</givenName>
+        <surName>Cummings</surName>
+      </individualName>
+      <positionName>Curator</positionName>
+      <electronicMailAddress>ksc@inhs.illinois.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Christine</givenName>
+        <surName>Mayer</surName>
+      </individualName>
+      <positionName>Creator of the data</positionName>
+      <electronicMailAddress>camayer@illinois.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Christine</givenName>
+        <surName>Mayer</surName>
+      </individualName>
+      <positionName>Collection Manager</positionName>
+      <electronicMailAddress>camayer@illinois.edu</electronicMailAddress>
+    </associatedParty>
+    <language>eng</language>
+    <abstract>
+      <para>The Illinois Natural History Survey Mollusk Collection contains over 144,000 catalogued specimens, most of which were collected in Illinois and the southeastern United States. The collection is 90% freshwater species (mussels, fingernail clams, and snails) and 10% terrestrial species (snails). Most of the specimens were collected as a result of various faunal surveys conducted by INHS biologists from the late 1800's until the present. The early collections were made by such naturalists as John W. Powell, Robert Kennicott, Richard E. Call, William A. Nason, Frank C. Baker, Robert E. Richardson, and Charles A. Hart. The snails are divided between terrestrial (13%) and freshwater (5%) species, most of which were collected more than 50 years ago. The largest and best documented collection of snails at the Survey was compiled by Thural D. Foster and organized by Frank C. Baker as part of his study on the "Landsnails of Illinois" published in 1939. The Baker snail collection numbers 1632 lots containing 11,970 specimens.</para>
+    </abstract>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://wwx.inhs.illinois.edu/collections/mollusk</url>
+      </online>
+    </distribution>
+  </dataset>
+</eml:eml>

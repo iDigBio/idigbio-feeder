@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Tall Timbers Research Station Insects Collection</title>
+    <creator>
+      <individualName>
+        <givenName>Gil</givenName>
+        <surName>Nelson</surName>
+      </individualName>
+      <positionName>Staff</positionName>
+      <electronicMailAddress>gnelson@bio.fsu.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Alex</givenName>
+        <surName>Thompson</surName>
+      </individualName>
+      <positionName>Staff</positionName>
+      <electronicMailAddress>godfoder@acis.ufl.edu</electronicMailAddress>
+    </metadataProvider>
+    <language>eng</language>
+    <abstract>
+      <para>The insect collection is composed primarily of the renown Lucien Harris, Jr. Lepidoptera collection, which was the basis for the Butterflies of Georgia.  Of the approximately 4,000 specimens  housed at Tall Timbers, 1,388 have had high-resolution images collected as part of the Imaging the Tall Timbers Biological Collections project, and images are viewable online at the Morphbank Online Database.</para>
+    </abstract>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://www.talltimbers.org/museum.html</url>
+      </online>
+    </distribution>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Illinois Natural History Survey Crustacean Collection</title>
+    <creator>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <surName>Taylor</surName>
+      </individualName>
+      <positionName>Curator</positionName>
+      <electronicMailAddress>ctaylor@inhs.illinois.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Christine</givenName>
+        <surName>Mayer</surName>
+      </individualName>
+      <positionName>Creator of the data</positionName>
+      <electronicMailAddress>camayer@illinois.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Dan</givenName>
+        <surName>Wylie</surName>
+      </individualName>
+      <positionName>Collection Manager</positionName>
+      <electronicMailAddress>dwylie@illinois.edu</electronicMailAddress>
+    </associatedParty>
+    <language>eng</language>
+    <abstract>
+      <para>The Illinois Natural History Survey Crustacean Collection is one of the largest state collections of crustaceans in North America. A few specimens now housed in the collection were collected in the late 1800's by Stephen A. Forbes. They formed the basis for the first article to appear in the Survey's Bulletin "List of Illinois Crustacea." More specimens were collected during the first half of the 1900's in conjunction with the insect surveys organized by Herbert H. Ross. A large part of the collection comes from specimens collected from 1972 to 1982 for Lawrence M. Page's "The Crayfishes and Shrimps (Decapoda) of Illinois" published in 1985. Since that time, significant collections have been made documenting the spread of invasive crayfishes in Illinios and surveying the states of Kentucky and Alambama. We've also recently acquired a statewide collection of Missouri crayfishes. Holdings - The collection contains primary types of nine species and secondary types of 5 species. The collection contains over 91,000 specimens and 12,100 lots of approximately 350 species in 30 families. Almost all are from North America. About 50% of the collection is from Illinois; the remainder is mostly from the southeastern United States. The best represented groups are crayfishes, shrimps, scuds, slaters, and pill bugs.  A few lots of marine crustaceans found along the North American coastline are also present in the collection. We also maintain a tissue collection that contains high quality tissues from a portion of our vouchered specimens, mostly those collected after 1998. </para>
+    </abstract>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://wwx.inhs.illinois.edu/collections/crustaceans</url>
+      </online>
+    </distribution>
+  </dataset>
+</eml:eml>

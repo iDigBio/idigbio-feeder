@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Illinois Natural History Survey Fish Collection</title>
+    <creator>
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Taylor</surName>
+      </individualName>
+      <positionName>Curator</positionName>
+      <electronicMailAddress>ctaylor@inhs.illinois.edu</electronicMailAddress>
+    </creator>
+    <language>eng</language>
+    <abstract>
+      <para>A large part of the Illinois Natural History Fish Collection comes from specimens collected from 1880 to 1905 for S.A. Forbes and R.E. Richardson's "The Fishes of Illinois" published in 1908 and from specimens collected from 1950 to 1978 for P.W. Smith's "The Fishes of Illinois" published in 1979. Thousands of specimens have been added from other areas of North and South America in the past few decades. The collection contains representatives from 48 of the 50 states and many countries including: Angola, Antigua, Bolivia, Brazil, Canada, Colombia, Costa Rica, England, Guyana, Indonesia, Lebanon, Mexico, Pakistan, Panama, Paraguay, Peru, Puerto Rico, Romania, Russia, Thailand, Trinidad Venezuela, and Yugoslavia. The geographic scope of the collection is about 58% from Illinois, 28% from elsewhere in North America, 13% from South America, and 1% from the rest of the world, including Antarctica.</para>
+    </abstract>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://wwx.inhs.illinois.edu/collections/fish</url>
+      </online>
+    </distribution>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+        <resourceLogoUrl>http://www.inhs.illinois.edu/images/parts/logo.gif</resourceLogoUrl>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

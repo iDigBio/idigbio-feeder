@@ -1,0 +1,201 @@
+<?xml version='1.0'?>
+<eml:eml xmlns:eml='eml://ecoinformatics.org/eml-2.1.1'
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xmlns:dc='http://purl.org/dc/terms/'
+  xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0/eml.xsd'
+  xml:lang='en'
+  packageId='' system='http://gbif.org' scope='system'>
+
+  <dataset>
+    <title xml:lang='en'>Illinois Natural History Survey Insect Collection</title>
+
+    <creator>
+      <individualName>
+        <givenName>Dmitry</givenName>
+        <surName>Dmitriev</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-9578</phone>
+      <electronicMailAddress>arboridia@gmail.com</electronicMailAddress>
+      <onlineUrl>http://imperialis.inhs.illinois.edu/dmitriev/</onlineUrl>
+    </creator>
+
+    <metadataProvider>
+      <individualName>
+        <givenName>Dmitry</givenName>
+        <surName>Dmitriev</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-9578</phone>
+      <electronicMailAddress>arboridia@gmail.com</electronicMailAddress>
+      <onlineUrl>http://imperialis.inhs.illinois.edu/dmitriev/</onlineUrl>
+    </metadataProvider>
+
+    <associatedParty>
+      <individualName>
+        <givenName>Dmitry</givenName>
+        <surName>Dmitriev</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-9578</phone>
+      <electronicMailAddress>arboridia@gmail.com</electronicMailAddress>
+      <onlineUrl>http://imperialis.inhs.illinois.edu/dmitriev/</onlineUrl>
+      <role>Author</role>
+    </associatedParty>
+
+    <associatedParty>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <surName>Dietrich</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-7408</phone>
+      <electronicMailAddress>chdietri@illinois.edu</electronicMailAddress>
+      <onlineUrl>http://www.inhs.illinois.edu/staff/index.php?action=list&amp;user_name=chdietri</onlineUrl>
+      <role>Author</role>
+    </associatedParty>
+
+    <associatedParty>
+      <individualName>
+        <givenName>R. Edward</givenName>
+        <surName>DeWalt</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Aquatic Entomologist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-649-7414</phone>
+      <electronicMailAddress>dewalt@illinois.edu</electronicMailAddress>
+      <onlineUrl>http://www.inhs.illinois.edu/staff/index.php?action=list&amp;user_name=dewalt</onlineUrl>
+      <role>Author</role>
+    </associatedParty>
+
+    <associatedParty>
+      <individualName>
+        <givenName>Felipe</givenName>
+        <surName>Soto-Adames</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-4552</phone>
+      <electronicMailAddress>fsoto@illinois.edu</electronicMailAddress>
+      <onlineUrl>http://www.inhs.illinois.edu/staff/index.php?action=list&amp;user_name=fsoto</onlineUrl>
+      <role>Author</role>
+    </associatedParty>
+
+    <pubDate>2014-09-15</pubDate>
+    <language>en</language>
+    <abstract>
+      <para>The insect collection at the Survey now houses over 6,000,000 curated specimens. The growth and wide-ranging scope of this collection can be credited to the diverse interests of the systematists who have spent all or part of their career at the Survey. Scientists such as Stephen A. Forbes, the first Director of the State Laboratory and Chief of the Natural History Survey; Theodore Frison, who succeeded Forbes; and H. H. Ross, who directed the intense systematics studies of the faunistic section for 40 years, placed considerable emphasis on enlarging the insect collection. These insects document the changing landscape and environmental conditions of the world.
+
+The INHS insect collection is one of the largest in North America. The most recent size estimate was done in 1992. The heavy concentration of specimens from the last third of the 1800s also makes this one of North America's oldest insect and related arthropod collections. 
+
+The INHS Insect Collection includes more than 13,000 primary types (syntypes inclusive). Because of size, historical holdings, and wide breadth of coverage in certain groups, the collection is an important national and worldwide resource.</para>
+    </abstract>
+    <additionalInfo>
+      <para>No</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>CC-BY</para>
+    </intellectualRights>
+    <distribution scope='document'>
+      <online>
+      <url function='information'>http://www.inhs.uiuc.edu/animals_plants/insect/</url>
+      </online>
+    </distribution>
+
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Geographic Coverage</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>90</northBoundingCoordinate>
+          <southBoundingCoordinate>-90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>Taxonomic Coverage</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Arthropoda</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+
+    <contact>
+      <individualName>
+        <givenName>Dmitry</givenName>
+        <surName>Dmitriev</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-9578</phone>
+      <electronicMailAddress>arboridia@gmail.com</electronicMailAddress>
+      <onlineUrl>http://imperialis.inhs.illinois.edu/dmitriev/</onlineUrl>
+    </contact>
+
+  </dataset>
+
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2014-09-15T13:28:51</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <resourceLogoUrl>http://www.inhs.uiuc.edu//images/parts/logo.gif</resourceLogoUrl>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+
+</eml:eml>

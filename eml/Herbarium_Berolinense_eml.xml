@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+    packageId="619a4b95-1a82-4006-be6a-7dbe3c9b33c5/v7" system="http://gbif.org" scope="system">
+    <dataset>
+        <title>Herbarium Berolinense</title>
+        <creator>
+            <organizationName>Botanic Garden and Botanical Museum Berlin-Dahlem</organizationName>
+        </creator>
+        <metadataProvider>
+            <organizationName>Botanic Garden and Botanical Museum Berlin-Dahlem</organizationName>
+            <address><deliveryPoint>K&#246;nigin-Luise-Str. 6-8, 14195 Berlin, Germany</deliveryPoint></address>
+            <electronicMailAddress>biodiversitydata@bgbm.org</electronicMailAddress>
+        </metadataProvider>
+        <pubDate>2017</pubDate>
+        <abstract>
+            <para>The herbarium of the Botanic Garden and Botanical Museum Berlin-Dahlem (herbarium acronym: B) is the largest in Germany and holds a collection of more than 3.5 million preserved specimens. All plant groups &#8211; flowering plants, ferns, mosses, liverworts, and algae, as well as fungi and lichens &#8211; are represented in the collections which are worldwide in scope. Associated with the general herbarium are special collections of dried fruits and seeds, wood samples, and specimens preserved in alcohol. The collections of the herbarium are growing constantly through field research conducted by staff, and through gifts, acquisitions, and exchanges of specimens from other herbaria</para>
+        </abstract>
+        <contact>
+            <individualName>
+                <surName>Botanic Garden and Botanical Museum Berlin-Dahlem</surName>
+            </individualName>
+            <address><deliveryPoint>K&#246;nigin-Luise-Str. 6-8, 14195 Berlin, Germany</deliveryPoint></address>
+            <electronicMailAddress>biodiversitydata@bgbm.org</electronicMailAddress>
+        </contact>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2017-04-20T01:14:09</dateStamp>
+                <hierarchyLevel>dataset</hierarchyLevel>
+                <citation>R&#246;pert D. (ed.) 2000+ [continuously updated]: Digital specimen images at the Herbarium Berolinense. - Published at http://ww2.bgbm.org/herbarium/default.cfm [accessed dd Mmm yyyy].     For reference to a specimen cite the stable identifier as shown on the specimen detail page   (e.g. http://herbarium.bgbm.org/object/B200072053).     For reference to an individual image, cite the barcode of the specimen as well as the image ID as shown on the image detail page.</citation>
+                <resourceLogoUrl>http://ww3.bgbm.org/providerResources/BGBM.jpg</resourceLogoUrl>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

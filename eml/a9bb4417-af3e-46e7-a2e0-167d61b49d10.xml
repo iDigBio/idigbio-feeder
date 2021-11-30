@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Media Recordset for Bernice P. Bishop Museum</title>
+<creator>
+    <individualName>
+        <givenName>Shelley</givenName>
+      <surName>James</surName>
+    </individualName>
+    <electronicMailAddress>sjames@flmnh.ufl.edu</electronicMailAddress>
+</creator>
+<metadataProvider>
+    <individualName>
+        <givenName>Shelley</givenName>
+      <surName>James</surName>
+    </individualName>
+    <electronicMailAddress>sjames@flmnh.ufl.edu</electronicMailAddress>
+    <language>eng</language>
+</metadataProvider>
+<abstract>
+  <para>The Bernice Pauahi Bishop Museum, designated the Hawaiʻi State Museum of Natural and Cultural History, is a museum of history and science located in the Kalihi district of Honolulu on the Hawaiian island of O'ahu. Founded in 1889, it is the largest museum in Hawai'i and is home to one of the world's largest collections of natural history material from the Pacific region, with approximately 21 million specimens. The main collections include Entomology, Malacology, Botany, Ichthyology, Vertebrate Zoology (Birds, Mammals, Amphibians and Reptiles) and Marine Invertebrates. Bishop Museum is in the process of dramatically improving its digital resources, and is actively involved in the development of biodiversity information standards and associated services (particularly the Global Names Architecture).</para>
+</abstract>
+  </dataset>
+</eml:eml>

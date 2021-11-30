@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Tri-Trophic Interactions Dataset</title>
+    <creator>
+      <individualName>
+        <givenName>Katja</givenName>
+        <surName>Seltmann</surName>
+      </individualName>
+      <positionName>Project Informatics Manager</positionName>
+      <electronicMailAddress>kseltmann@amnh.org</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Alex</givenName>
+        <surName>Thompson</surName>
+      </individualName>
+      <positionName>Staff</positionName>
+      <electronicMailAddress>godfoder@acis.ufl.edu</electronicMailAddress>
+    </metadataProvider>
+    <language>eng</language>
+    <abstract>
+      <para>This Thematic Collection Network (TCN) will focus on one of the major herbivorous insect clades, the Hemiptera (aphids, scales, hoppers, cicadas, and true bugs), their host plants, and their parasitoids in a Tri-Trophic Databasing and imaging project—the TTD. It will treat the North American biota utilizing collections within the USA. Not only is the size of the problem tractable, but also nearly all of the collections relevant to the United States biota reside within the United States, with substantial amounts of material from Canada and Mexico also being available in US institutions. The TTD will be coordinated by seven collaborating institutions. Each possesses necessary taxonomic expertise, proven leadership skills, and the ability to form networks with another 27 large and small institutions, to capture and deliver specimen data for organisms in all three trophic levels.</para>
+    </abstract>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://tcn.amnh.org/</url>
+      </online>
+    </distribution>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+        <resourceLogoUrl>http://tcn.amnh.org/_/rsrc/1333054891533/config/customLogo.gif</resourceLogoUrl>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

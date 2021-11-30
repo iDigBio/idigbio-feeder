@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title>Media Recordset for "Plant Bug Planetary Biodiversity Inventory Project PBI"</title>
+    <creator>
+      <organizationName>Arthropod Easy Capture (American Museum of Natural History)</organizationName>
+    </creator>
+    <pubDate>20160428</pubDate>
+    <language>eng</language>
+    <intellectualRights>
+      <para>Attribution</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://research.amnh.org/pbi/locality/</url>
+      </online>
+    </distribution>
+    <contact>
+      <individualName>
+        <givenName>Randall T.</givenName>
+        <surName>Schuh</surName>
+      </individualName>
+      <electronicMailAddress>schuh@amnh.org</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Arthropod Easy Capture</organizationName>
+    </publisher>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <abstract>
+        <para/>
+      </abstract>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <formattedCitation>PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heteroptera: Miridae: Orthotylinae, Phylinae). Version: 08 Mar 2016. National Science Foundation grant DBI#0316495</formattedCitation>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

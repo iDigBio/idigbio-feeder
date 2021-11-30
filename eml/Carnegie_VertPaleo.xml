@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Carnegie Museum of Natural History Vertebrate Paleontology Collection</title>
+    <creator>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Henrici</surName>
+      </individualName>
+      <positionName>Collection Manager</positionName>
+      <electronicMailAddress>henricia@carnegiemnh.org</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+     <individualName>
+        <givenName>Amy</givenName>
+        <surName>Henrici</surName>
+      </individualName>
+      <positionName>Collection Manager</positionName>
+      <electronicMailAddress>henricia@carnegiemnh.org</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Matthew</givenName>
+        <surName>Lamanna</surName>
+      </individualName>
+	  <positionName>Assistant Curator</positionName>
+      <electronicMailAddress>lamanna@carnegiemnh.org</electronicMailAddress>
+    </associatedParty>
+    <language>eng</language>
+    <abstract>
+      <para>
+The collection of fossil vertebrates at Carnegie Museum of Natural History is the fourth largest in North America. It currently holds over 100,000 specimens with a worldwide distribution, representing all vertebrate classes from the 
+Silurian to the Pleistocene. This collection was acquired primarily through over a century of field work by section staff and associates as well as acquisitions by the Museum. Fossil collecting began in 1895 with the sponsorship of 
+Mr. Andrew Carnegie, who supported the museum’s numerous early expeditions to the American West that resulted in one of the best dinosaur collections in the world. Carnegie in his retirement further strengthened the collection with 
+the purchase in 1903 of a large collection of Paleozoic-Cenozoic, European fossils from the Baron de Bayet, a private fossil collector from Brussels, Belgium. Strengths of the collection include Mississippian fishes from Bear Gulch, 
+Montana; Pennsylvanian and Permian fishes, amphibians and reptiles from the tri-state region of Pennsylvania, Ohio, and West Virginia and the southwestern United States; Jurassic dinosaurs, especially sauropods, from Utah (Dinosaur 
+National Monument) and Wyoming; Jurassic fishes and reptiles from Germany and France; Eocene fishes from Monte Bolca, Italy; Eocene mammals, reptiles, and amphibians from central Wyoming and Utah; Miocene mammals from a site now 
+preserved as Agate Springs Fossil Beds National Monument, Nebraska; and Pleistocene vertebrates from the Appalachian region. 
+      </para>
+    </abstract>
+  </dataset>
+</eml:eml>
