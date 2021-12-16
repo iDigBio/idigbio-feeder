@@ -88,7 +88,7 @@ The "ID" column is used to link back to the particular dataset in datasets.csv.
 
 The "pubDate" column contains a timestamp in HTTP-date format and will be used as-is in the finished RSS feed.  At this time there is no relationship between the Last-Modified returned by the remote webserver and the value entered in pubDate column, unless a human keeps them in sync.
 
-The Last-Modified header returned by the webserver is frequently a good value to use for pubDate.
+If no better date is available, the Last-Modified header returned by the publishing webserver may provide a reasonable value to use for pubDate.
 ```
 $ curl -s -I http://feeder.idigbio.org/datasets/e4b33221-1e2c-405c-ac02-a39d93f9a69b.tsv | egrep '^Last-Modified:'
 Last-Modified: Wed, 08 Feb 2017 15:35:18 GMT
