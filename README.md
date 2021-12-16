@@ -1,6 +1,6 @@
 # idigbio-feeder
 
-**This is the PRODUCTION branch of idigbio-feeder that includes the datasets served from feeder.idigbio.org**
+**This is the PRODUCTION branch of idigbio-feeder that includes references to the production datasets served from feeder.idigbio.org**
 
 ## overview
 
