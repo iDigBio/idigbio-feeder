@@ -1,7 +1,5 @@
 "Title","ID","Description","Type","Record Type","File","EMLFile"
 "Archbold Biological Station","http://feeder.idigbio.org/datasets/ABS_iDigBio","","CSV","occurrence","datasets/ABS_iDigBio.csv","eml/ABS_iDigBio.xml"
-"Carnegie Museum of Natural History Vertebrate Paleontology","http://feeder.idigbio.org/datasets/Carnegie_VertPaleo","","CSV","occurrence","datasets/Carnegie_VertPaleo.csv","eml/Carnegie_VertPaleo.xml"
-"Illinois Natural History Survey Insect","http://feeder.idigbio.org/datasets/INHSInsect","","ZIP","occurrence","datasets/INHSInsect.zip","eml/INHSInsect.xml"
 "Invertnet Images","http://feeder.idigbio.org/datasets/idigbio-invertnet","","CSV","multimedia","datasets/idigbio-invertnet.csv","eml/idigbio-invertnet.xml"
 "Norton-Brown Herbarium","http://feeder.idigbio.org/datasets/NortonBrown_Herbarium","","ZIP","occurrence","datasets/NortonBrown_Herbarium.zip","eml/NortonBrown_Herbarium.xml"
 "Tall Timbers Research Station Lepidoptera","http://feeder.idigbio.org/datasets/TTRS_Lepidoptera","","CSV","occurrence","datasets/TTRS_Lepidoptera.csv","eml/TTRS_Lepidoptera.xml"
