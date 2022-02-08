@@ -1,8 +1,6 @@
 "Title","ID","Description","Type","Record Type","File","EMLFile"
 "Archbold Biological Station","http://feeder.idigbio.org/datasets/ABS_iDigBio","","CSV","occurrence","datasets/ABS_iDigBio.csv","eml/ABS_iDigBio.xml"
 "Invertnet Images","http://feeder.idigbio.org/datasets/idigbio-invertnet","","CSV","multimedia","datasets/idigbio-invertnet.csv","eml/idigbio-invertnet.xml"
-"Norton-Brown Herbarium","http://feeder.idigbio.org/datasets/NortonBrown_Herbarium","","ZIP","occurrence","datasets/NortonBrown_Herbarium.zip","eml/NortonBrown_Herbarium.xml"
-"Tall Timbers Research Station Lepidoptera","http://feeder.idigbio.org/datasets/TTRS_Lepidoptera","","CSV","occurrence","datasets/TTRS_Lepidoptera.csv","eml/TTRS_Lepidoptera.xml"
 "Image Appliance Recordset for FLMNH Invertebrate Zoology","http://feeder.idigbio.org/datasets/252a0a12-f114-4fb5-aa9a-678c523d6dcd","","CSV","multimedia","datasets/252a0a12-f114-4fb5-aa9a-678c523d6dcd.csv","eml/252a0a12-f114-4fb5-aa9a-678c523d6dcd.xml"
 "Image Appliance Recordset for NYBG TTD","http://feeder.idigbio.org/datasets/285a4be0-5cfe-4d4f-9c8b-b0f0f3571079","","CSV","multimedia","datasets/285a4be0-5cfe-4d4f-9c8b-b0f0f3571079.csv","eml/285a4be0-5cfe-4d4f-9c8b-b0f0f3571079.xml"
 "Image Appliance Recordset for Robinson-Winter Museum of Natural History (RWMNH) Tardigrade Collection","http://feeder.idigbio.org/datasets/c7158ac6-7e1d-446f-9801-b1af5e9cc1e3","","CSV","multimedia","datasets/c7158ac6-7e1d-446f-9801-b1af5e9cc1e3.csv","eml/c7158ac6-7e1d-446f-9801-b1af5e9cc1e3.xml"
