@@ -1,5 +1,9 @@
 # idigbio-feeder
 
+**This is the PRODUCTION branch of idigbio-feeder that includes references to the production datasets served from feeder.idigbio.org**
+
+## overview
+
 Quick and Dirty PHP RSS Feed Generator
 
 rss.php uses as input a number of config files in order to generate an RSS 2.0 xml feed. rss.php can be used to generate a static file (by redirecting outuput to a file) or more commonly by dropping onto a webserver that is able to run php scripts.

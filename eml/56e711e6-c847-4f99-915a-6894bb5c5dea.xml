@@ -1,0 +1,62 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" scope="system" system="http://gbif.org" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd" packageId="resource.zip" xml:lang="en">
+  <dataset>
+    <alternateIdentifier>6be66d1adabd5e7242394417ef758cc345daf130</alternateIdentifier>
+    <alternateIdentifier>doi:10.5519/qd.4xr0k0ne</alternateIdentifier>
+    <title>Natural History Museum (London) Collection Specimens</title>
+    <creator>
+      <organizationName>The Natural History Museum, London</organizationName>
+      <electronicMailAddress>data@nhm.ac.uk</electronicMailAddress>
+      <onlineUrl>https://data.nhm.ac.uk</onlineUrl>
+      <userId directory="https://ror.org/039zvsn29">039zvsn29</userId>
+    </creator>
+    <metadataProvider>
+      <organizationName>The Natural History Museum, London</organizationName>
+      <electronicMailAddress>data@nhm.ac.uk</electronicMailAddress>
+      <onlineUrl>https://data.nhm.ac.uk</onlineUrl>
+      <userId directory="https://ror.org/039zvsn29">039zvsn29</userId>
+    </metadataProvider>
+    <pubDate>2024-01-05</pubDate>
+    <language>en</language>
+    <abstract>
+      <para>Natural History Museum (London) Collection Specimens</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Occurrence</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>CC0-1.0</para>
+    </intellectualRights>
+    <distribution scope="document">
+      <online>
+        <url function="information">https://data.nhm.ac.uk/doi/10.5519/qd.4xr0k0ne</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Unbound</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinates>-180</westBoundingCoordinates>
+          <eastBoundingCoordinates>180</eastBoundingCoordinates>
+          <northBoundingCoordinates>-90</northBoundingCoordinates>
+          <southBoundingCoordinates>90</southBoundingCoordinates>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <contact>
+      <organizationName>The Natural History Museum, London</organizationName>
+      <electronicMailAddress>data@nhm.ac.uk</electronicMailAddress>
+      <onlineUrl>https://data.nhm.ac.uk</onlineUrl>
+      <userId directory="https://ror.org/039zvsn29">039zvsn29</userId>
+    </contact>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2024-01-05T11:10:28Z</dateStamp>
+        <citation identifier="https://doi.org/10.5519/qd.4xr0k0ne">Natural History Museum (2024). Data Portal query on 1 resources created at 2024-01-05 10:00:04.840333 PID https://doi.org/10.5519/qd.4xr0k0ne</citation>
+        <resourceLogoUrl>https://data.nhm.ac.uk/uploads/admin/logo.png</resourceLogoUrl>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

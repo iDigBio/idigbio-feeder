@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Image Appliance Recordset for Robinson-Winter Museum of Natural History (RWMNH) Tardigrade Collection</title>
+    <creator>
+      <individualName>
+        <givenName>Carl</givenName>
+        <surName>Johansson</surName>
+      </individualName>
+      <organizationName>Fresno City College</organizationName>
+      <positionName>Biology Professor</positionName>
+      <address>
+        <deliveryPoint></deliveryPoint>
+        <city>Fresno</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93741</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>carl.johansson@fresnocitycollege.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Carl</givenName>
+        <surName>Johansson</surName>
+      </individualName>
+      <organizationName>Fresno City College</organizationName>
+      <positionName>Manager</positionName>
+      <address>
+        <city>Fresno</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93741</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>carl.johansson@fresnocitycollege.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Carl</givenName>
+        <surName>Johansson</surName>
+      </individualName>
+      <electronicMailAddress>carl.johansson@fresnocitycollege.edu</electronicMailAddress>
+    </associatedParty>
+    <language>eng</language>
+    <abstract>
+      <para>This material is based on work supported by the National Science Foundation under Grant Nos. DEB 0640959, 0640847, and 0641051. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.  Field collections of habitats thought to contain tardigrades were made throughout the Long Term Ecological Research Sites  (LTER’s) in the United States from 2007 – 2012.  Other areas, both nationally and internationally were opportunistically sampled.  Samples were processed at Fresno City College with identifications being done by FCC undergraduate students, supervised by Dr. Randy Miller, and Carl Johansson, with DNA being done at BYU on selected samples. Over 15,000 tardigrades were collected and processed during that time.  Slides are distributed between FCC’s Robinson – Winter Museum of Natural History, Bohart Museum, and the Philadelphia Academy of Sciences.</para>
+    </abstract>
+    <intellectualRights>
+      <para>This work is licensed under a Creative Commons CCZero 1.0 License. http://creativecommons.org/publicdomain/zero/1.0/</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>United States, Mexico, Brazil, Antarctica, specifically: Alaska, California, Florida, Georgia, Goias, Maine, Maryland, Massachusetts, MCM STN, Michigan, Mississippi, Nevada, New Hampshire, New Mexico, North Carolina, Oregon, Other, Pennsylvania, Puerto Rico, Rhode Island, South Carolina, Tamaulipas, Utah, Virginia, Wyoming</geographicDescription>
+      </geographicCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>Tardigrada</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>phylum</taxonRankName>
+          <taxonRankValue>Tardigrada</taxonRankValue>
+          <commonName>water bears</commonName>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Carl</givenName>
+        <surName>Johansson</surName>
+      </individualName>
+      <organizationName>Fresno City College</organizationName>
+      <positionName>Professor</positionName>
+      <address>
+        <city>Fresno</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93741</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>carl.johansson@fresnocitycollege.edu</electronicMailAddress>
+    </contact>
+    <project>
+    <title>Invertebrate Tardigrades Survey</title>
+    <personnel>
+      <individualName>
+        <givenName>Carl</givenName>
+        <surName>Johansson</surName>
+      </individualName>
+      <role>Principal Investigator</role>
+    </personnel>
+    <funding>
+      <para>National Science Foundation under Grant Nos. DEB 0640959, 0640847, and 0641051.</para>
+    </funding>
+    </project>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://tegrity.fresnocitycollege.edu/johansson/</url>
+      </online>
+    </distribution>
+  </dataset>
+</eml:eml>

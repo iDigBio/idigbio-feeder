@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Image Appliance Recordset for FLMNH Invertebrate Zoology</title>
+<creator>
+    <individualName>
+        <givenName>Gustav</givenName>
+      <surName>Paulay</surName>
+    </individualName>
+    <organizationName>Florida Museum of Natural History</organizationName>
+    <positionName>Curator of Invertebrate Zoology</positionName>
+    <address>
+        <deliveryPoint>Dickinson Hall, 1659 Museum Road</deliveryPoint>
+        <city>Gainesville</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>32611</postalCode>
+        <country>US</country>
+    </address>
+    <phone>352-273-1948</phone>
+    <electronicMailAddress>paulay@flmnh.ufl.edu</electronicMailAddress>
+    <onlineUrl>http://www.flmnh.ufl.edu/malacology/</onlineUrl>
+</creator>
+<metadataProvider>
+    <individualName>
+        <givenName>William</givenName>
+      <surName>Paine</surName>
+    </individualName>
+    <organizationName>Florida Museum of Natural History</organizationName>
+    <positionName>IT Director</positionName>
+    <address>
+        <deliveryPoint>Dickinson Hall, 1659 Museum Road</deliveryPoint>
+        <city>Gainesville</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>32611</postalCode>
+        <country>US</country>
+    </address>
+    <phone>352-273-1915</phone>
+    <electronicMailAddress>netadmin@flmnh.ufl.edu</electronicMailAddress>
+    <onlineUrl>http://www.flmnh.ufl.edu/omt/</onlineUrl>
+</metadataProvider>
+    <associatedParty>
+    <individualName>
+        <givenName>William</givenName>
+      <surName>Paine</surName>
+    </individualName>
+    <organizationName>Florida Museum of Natural History</organizationName>
+    <positionName>IT Director</positionName>
+    <address>
+        <deliveryPoint>Dickinson Hall, 1659 Museum Road</deliveryPoint>
+        <city>Gainesville</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>32611</postalCode>
+        <country>US</country>
+    </address>
+    <phone>352-273-1915</phone>
+    <electronicMailAddress>netadmin@flmnh.ufl.edu</electronicMailAddress>
+    <onlineUrl>http://www.flmnh.ufl.edu/omt/</onlineUrl>
+    <role>user</role>
+    </associatedParty>
+    <language>eng</language>
+<abstract>
+  <para>The UF Invertebrate collection holds ~510,000 databased lots of mollusks and marine invertebrates.  It began as a Malacology collection almost 100 years ago and ~85% of the holdings are still mollusks.  Since 2000 the collection was expanded to cover all invertebrate phyla, focusing on marine taxa.  Today it holds &gt;40,000 species from 28 phyla.</para>
+</abstract>
+  </dataset>
+</eml:eml>

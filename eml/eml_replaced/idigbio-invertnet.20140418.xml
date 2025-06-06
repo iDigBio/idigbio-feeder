@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title xml:lang="eng">Invertnet Images Dataset</title>
+    <creator>
+      <individualName>
+        <givenName>Omar</givenName>
+        <surName>Sobh</surName>
+      </individualName>
+      <positionName>Curator</positionName>
+      <electronicMailAddress>omarsobh@illinois.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Alex</givenName>
+        <surName>Thompson</surName>
+      </individualName>
+      <positionName>Staff</positionName>
+      <electronicMailAddress>godfoder@acis.ufl.edu</electronicMailAddress>
+    </metadataProvider>
+    <language>eng</language>
+    <abstract>
+      <para>Arthropods (insects, spiders, crabs) are the most diverse and abundant group of macro-organisms in biological collections, but are underrepresented in databases accessible online or elsewhere. This project will centralize access to and synthesize information from 160 years of North American arthropod collections. It will use innovative technology, including optical 3D imaging and reconstruction, to support scientific inquiry on the effects of land use change on biodiversity, and basic research on species discovery and identification. The award will provide IT infrastructure for collection digitization, digitally-assisted curation, and collection management; availability of specimen-level data for scientific inquiry on human impacts on biodiversity; and greater use of and appreciation for scientific collections by non-scientists through access to specimen images and related data.</para>
+    </abstract>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://invertnet.org/</url>
+      </online>
+    </distribution>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+        <resourceLogoUrl>http://invertnet.org/templates/hubbasic2012/images/logos/inv-tiny.png</resourceLogoUrl>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

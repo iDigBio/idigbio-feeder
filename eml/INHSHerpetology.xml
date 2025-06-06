@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <alternateIdentifier>http://grbio.org/cool/yh6m-d6kw</alternateIdentifier>
+    <title xml:lang="eng">Illinois Natural History Survey - Amphibian and Reptile Collection</title>
+    <creator>
+      <individualName>
+        <givenName>Christopher A.</givenName>
+        <surName>Phillips</surName>
+      </individualName>
+      <positionName>Curator</positionName>
+      <electronicMailAddress>caphilli@illinois.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Dan</givenName>
+        <surName>Wylie</surName>
+      </individualName>
+      <positionName>Collections Manager</positionName>
+      <electronicMailAddress>dwylie@illinois.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Christine A.</givenName>
+        <surName>Mayer</surName>
+      </individualName>
+	   <positionName>Database Manager</positionName>
+      <electronicMailAddress>camayer@illinois.edu</electronicMailAddress>
+    </associatedParty>
+    <language>eng</language>
+    <abstract>
+      <para>
+        History: The first catalogue ledger of the Illinois Natural History Survey Amphibian and Reptile Collection was started in 1941.  The first 879 entries were transcribed from index cards and include specimens collected as far back as 1870.  Most of these early specimens do not include collector information.  The earliest specimen with collector information is an Eastern Massasauga collected by Stephen A. Forbes in Pekin, Illinois in 1873.  Also among these earliest records with collector data are specimens from Colorado collected by George Cooper and C.C. Crandall in 1875.  Other early collectors include F.S. Earle (specimens collected in Union Co., IL; 1877); Harrison Garman (Marshall Co., IL; 1878); H.A. Surface (Mason Co., IL; 1882) and Julius Hurter (Madison Co., IL; 1896).  See "A History of Herpetology in Illinois" for more information on early herpetologists in Illinois.
+		</para>
+		<para> 
+		Holdings: The Illinois Natural History Survey Amphibian and Reptile Collection contains approximately 24,000 catalogued specimens, representing 55 families and over 550 species (51% Amphibia, 49% Reptilia). The geographical emphasis is Illinois (75%). This is the result of the efforts of Phil W. Smith, who collected specimens from 1935 to 1949 for his comprehensive study "The Amphibians and Reptiles of Illinois," published in 1961. In addition to the Illinois material, the INHS collection also houses specimens from 45 other U.S. states, Canada, the Caribbean, Mexico, South America, Asia, Africa, and Europe. Most notable among these are specimens collected by P.W. Smith from California (1943-1952) and Mexico (1957-1965), specimens of S.A. Minton from Pakistan, Mexico and Texas and specimens from Thailand collected by R.W. Larimore (1963). 
+		 </para>
+		<para>
+		Frozen Tissues: We also maintain a tissue collection that contains high quality tissues from a portion of our vouchered specimens, mostly those collected after 1998. This collection may be searched by choosing the appropriate link from the Data tab, above. The search engine will deliver limited location information.
+      </para>
+    </abstract>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://wwx.inhs.illinois.edu/collections/herps</url>
+      </online>
+    </distribution>
+  </dataset>
+</eml:eml>

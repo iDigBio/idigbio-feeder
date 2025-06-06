@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:md="eml://ecoinformatics.org/methods-2.1.1" xmlns:proj="eml://ecoinformatics.org/project-2.1.1" xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.1/eml.xsd" xml:lang="eng">
+  <dataset>
+    <title>Media Recordset for "Collaborative databasing of North American bee collections"</title>
+    <creator>
+      <organizationName>Arthropod Easy Capture (American Museum of Natural History)</organizationName>
+    </creator>
+    <pubDate>20160428</pubDate>
+    <language>eng</language>
+    <intellectualRights>
+      <para>Attribution-NonCommercial</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://research.amnh.org/pbi/locality/</url>
+      </online>
+    </distribution>
+    <contact>
+      <individualName>
+        <givenName>John S.</givenName>
+        <surName>Ascher</surName>
+      </individualName>
+      <electronicMailAddress>dbsajs@nus.edu.sg</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Arthropod Easy Capture</organizationName>
+    </publisher>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <abstract>
+        <para>Darwin Core Archive for the Collaborative Research: Collaborative databasing of North American bee collections within a global informatics network project</para>
+      </abstract>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <formattedCitation>Digital Bee Collections Network, 2014 (and updates). Version: 08 Mar 2016. National Science Foundation grant DBI 0956388</formattedCitation>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
